@@ -33,11 +33,12 @@ h3 {
   width: 47rem;
   height: 38rem;
   background-color: var(--backgroundColor);
+  border-radius: 1.3rem;
 }
 
 .home-container,
 .guest-container,
-.newGameBtn {
+.newGameBtn-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,4 +73,8 @@ button {
   border-radius: 0.6em;
   border-color: var(--borderColor);
   margin: 0 0.3em;
+}
+
+.newGameBtn {
+  width: 6rem;
 }
