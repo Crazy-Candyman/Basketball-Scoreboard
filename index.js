@@ -48,3 +48,5 @@ newGameBtn.addEventListener("click", function () {
   render(scoreHome, homeCount);
   render(scoreGuest, guestCount);
 });
+
+// End of File
